@@ -322,40 +322,26 @@ svg {
   padding: 0;
   text-decoration: none;
 }
-/* .container {
-  display: flex;
-} */
+
 main {
   width: 100%;
   padding: 20px;
   overflow-x: auto;
   transition: all 0.5s ease;
 }
-/* .sidebar {
-  
-  background: #000;
-  color: #fff;
-  height: 100vh;
-  width: 200px;
-  transition: all 0.5s;
-} */
+
 .top_section {
   margin-top: -10px;
 
   display: flex;
   align-items: center;
-  /* padding: 20px 0px; */
   padding-top: 20px;
 }
 .logo {
   font-size: 30px;
   color: white;
 }
-/* .bars {
-  display: flex;
-  font-size: 20px;
-  margin-left: 50px;
-} */
+
 .bars {
   display: flex;
   font-size: 20px;
@@ -391,8 +377,6 @@ ul {
 }
 .link_text {
   color: white;
-  /* opacity: 1;
-  transition: opacity 0.5s ease-in-out; Apply transition to opacity */
 }
 .logo-text {
   font-size: 19px;
@@ -415,14 +399,11 @@ ul {
 }
 .display-none {
   display: none;
-  /* transition: all 2s; */
 }
 .display-block {
   display: block;
-  /* transition: all 2s; */
 }
 .dropdown-toggle::after {
-  /* content: aqua !important; */
   border-right: 0 solid transparent !important;
   border-bottom: 0 !important;
   border-left: 0 solid transparent !important;

@@ -41,12 +41,12 @@
     {
       "id": "1",
       "brandname": "brand-0",
-      "active": true,
+      "active": false,
       "locations": [
         {
           "id": "1",
           "brandname": "brand-1",
-          "active": true,
+          "active": false,
           "parentBrandId": "1"
         },
         {
@@ -58,13 +58,13 @@
         {
           "id": "3",
           "brandname": "brand-3",
-          "active": false,
+          "active": true,
           "parentBrandId": "1"
         },
         {
           "id": "4",
           "brandname": "brand-4",
-          "active": false,
+          "active": true,
           "parentBrandId": "1"
         }
       ]
@@ -109,7 +109,7 @@
     {
       "id": "3",
       "brandname": "brand-2",
-      "active": true,
+      "active": false,
       "locations": [
         {
           "id": "11",
@@ -126,13 +126,13 @@
         {
           "id": "13",
           "brandname": "brand-13",
-          "active": true,
+          "active": false,
           "parentBrandId": "3"
         },
         {
           "id": "14",
           "brandname": "brand-14",
-          "active": false,
+          "active": true,
           "parentBrandId": "3"
         },
         {
