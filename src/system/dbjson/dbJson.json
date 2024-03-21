@@ -1,0 +1,147 @@
+{
+  "AccountList": [
+    {
+      "id": "1710758238405",
+      "email": "tayyaa.hafeez@hazelsoft.org",
+      "password": "123456",
+      "name": "tayyab"
+    },
+    {
+      "id": "1710758238404",
+      "email": "dev@hazelsoft.org",
+      "password": "123456",
+      "name": "dev"
+    },
+    {
+      "id": "1710758491746",
+      "email": "tayyab.hafeez@hazelsoft.org",
+      "password": "123456",
+      "name": "hafeez"
+    },
+    {
+      "id": "1710761649445",
+      "email": "tayyab@gmail.com",
+      "password": "123456",
+      "name": "tayyab"
+    },
+    {
+      "id": "1710761694085",
+      "email": "tayyab.haffeez@hazelsoft.org",
+      "password": "123456",
+      "name": " "
+    },
+    {
+      "id": "1710761735917",
+      "email": "tayydab@gmail.net",
+      "password": "      ",
+      "name": " "
+    }
+  ],
+  "Brands": [
+    {
+      "id": "1",
+      "brandname": "brand-0",
+      "active": true,
+      "locations": [
+        {
+          "id": "1",
+          "brandname": "brand-1",
+          "active": true,
+          "parentBrandId": "1"
+        },
+        {
+          "id": "2",
+          "brandname": "brand-2",
+          "active": true,
+          "parentBrandId": "1"
+        },
+        {
+          "id": "3",
+          "brandname": "brand-3",
+          "active": false,
+          "parentBrandId": "1"
+        },
+        {
+          "id": "4",
+          "brandname": "brand-4",
+          "active": false,
+          "parentBrandId": "1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "brandname": "brand-1",
+      "active": true,
+      "locations": [
+        {
+          "id": "6",
+          "brandname": "brand-6",
+          "active": true,
+          "parentBrandId": "2"
+        },
+        {
+          "id": "7",
+          "brandname": "brand-7",
+          "active": false,
+          "parentBrandId": "2"
+        },
+        {
+          "id": "8",
+          "brandname": "brand-8",
+          "active": true,
+          "parentBrandId": "2"
+        },
+        {
+          "id": "9",
+          "brandname": "brand-9",
+          "active": false,
+          "parentBrandId": "2"
+        },
+        {
+          "id": "10",
+          "brandname": "brand-10",
+          "active": true,
+          "parentBrandId": "2"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "brandname": "brand-2",
+      "active": true,
+      "locations": [
+        {
+          "id": "11",
+          "brandname": "brand-11",
+          "active": false,
+          "parentBrandId": "3"
+        },
+        {
+          "id": "12",
+          "brandname": "brand-12",
+          "active": true,
+          "parentBrandId": "3"
+        },
+        {
+          "id": "13",
+          "brandname": "brand-13",
+          "active": true,
+          "parentBrandId": "3"
+        },
+        {
+          "id": "14",
+          "brandname": "brand-14",
+          "active": false,
+          "parentBrandId": "3"
+        },
+        {
+          "id": "15",
+          "brandname": "brand-15",
+          "active": false,
+          "parentBrandId": "3"
+        }
+      ]
+    }
+  ]
+}

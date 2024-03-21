@@ -1,0 +1,129 @@
+.default-color {
+  color: #70bbfd;
+}
+.submitButton {
+  min-width: 100%;
+  border-radius: 5px !important;
+  background: #70bbfd;
+  text-align: center !important;
+  font-size: 15px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 24px !important;
+  letter-spacing: -0.264px !important;
+  height: 43px !important;
+  border: none !important;
+}
+.bg-gray {
+  background-color: #f2f4f7;
+}
+.color-gray {
+  color: gray;
+}
+.light-black {
+  color: #635555;
+}
+.form-label {
+  font-weight: 400;
+}
+.border-left {
+  border-left: 5px solid #70bbfd;
+}
+.error-text {
+  color: red;
+  font-size: 12px;
+}
+.error-border {
+  border-color: red;
+}
+
+.container-login {
+  background-color: #fdfdfd;
+  height: 100vh;
+  justify-content: space-between;
+  margin-right: 0 !important;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.login-header {
+  color: #00008b;
+  font-size: 3rem;
+  /* font-size: clamp(16px, 3rem, 3rem  );   */
+
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.font-large {
+  font-size: large;
+  font-weight: 400;
+}
+.padding-5rem {
+  padding-right: 5rem !important;
+  padding-left: 5rem !important;
+}
+.labels {
+  font-size: 14px;
+  font-weight: 500;
+}
+.submit-button {
+  border-color: #0e8476 !important;
+  background-color: #0e8476;
+  font-weight: 600 !important;
+  width: 100%;
+}
+@media only screen and (max-width: 992px) {
+  .form-div {
+    padding: 40px 0;
+  }
+  .form-container {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+}
+@media only screen and (max-width: 352px) {
+  .form-div {
+    padding: 30px 0;
+  }
+  .form-container {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+.form-div {
+  margin: 0 auto 5%;
+  width: 60%;
+}
+.site-name {
+  font-size: x-large;
+  font-weight: 600;
+}
+.rush-color {
+  color: #008774;
+}
+.hunger-color {
+  color: #00008b;
+}
+.background-color {
+  background-color: #d8dadc;
+}
+
+.form-style {
+  height: 42px;
+}
+
+.submit-button:hover {
+  background: #0e8476;
+}
+.submit-button:active {
+  background: #0e8476;
+}
+.submit-button.show {
+  background: #0e8476;
+}
+.submit-button:focus-visible {
+  background: #0e8476;
+}
+.btn:first-child:active {
+  background: #0e8476;
+}

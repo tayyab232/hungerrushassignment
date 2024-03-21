@@ -1,0 +1,59 @@
+.container-backGround-color {
+  background-color: #f3f4f6;
+}
+.font-size-12 {
+  font-size: 14px;
+}
+.field-height {
+  height: 30px;
+}
+.field-width {
+  width: 215px;
+}
+
+@media only screen and (max-width: 576px) {
+  .fields-container {
+    display: block !important;
+  }
+  .field-width {
+    margin-left: 0px !important;
+  }
+}
+button.accordion-button.collapsed {
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+
+.d-flex.switch-arrow-reverse {
+  flex-direction: row-reverse;
+}
+
+.accordion-arrow {
+  cursor: pointer;
+}
+
+.accordion-button::after {
+  position: absolute;
+  left: 4;
+}
+.accordion-button .switch {
+  position: absolute !important;
+  right: 12px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white;
+}
+.bg-grays {
+  background-color: #eeeeee;
+}
+.accordion-button p {
+  margin-left: 35px;
+  margin-top: 14px;
+}
+.accordion-button .switch p ::after {
+  margin-top: -10px !important;
+}
+img.pointer {
+  margin-top: -5px;
+}
